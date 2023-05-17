@@ -1,0 +1,83 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+  }
+:root{
+    --cor01: #2E393F;
+    --cor02: #7E6B64;
+    --cor03: #E2D1B3;
+    --cor04: #FFCD9D;
+}
+body{
+    background-color: rgb(238, 239, 240);
+
+}
+header{
+    background-color: var(--cor01);
+    margin-bottom: 40px;
+ }
+ .headercenter{
+     display: flex;
+     align-items: center;
+     justify-content: space-around;
+     padding: 20px;
+ }
+ header img{
+     display: block;
+     max-width: 90px;
+     margin-bottom: -40px ;
+     justify-content: baseline;
+     align-items: baseline;
+     
+ }
+ .headercenter .icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    margin-top: -20px;
+ 
+}
+
+.headercenter .icons .icon-busca img{
+    display: block;
+    width: 40px;
+    background-color: #FFCD9D;
+    padding: 3px;
+    border-radius: 3px;
+    box-shadow: 6px 6px 0px rgb(0, 0, 0);
+    cursor: pointer;
+
+}
+.headercenter .icons .icon-perfil img{
+    display: block;
+    width: 70px;
+    cursor: pointer;
+
+}
+ nav{
+     display: inline-block;
+     margin-right: 30px;
+     margin-top: 50px;
+     align-items: center;
+ }
+ nav a{
+     background-color: var(--cor04);
+     color: black;
+     padding: 4px 8px;
+     margin-right: 20px;
+     text-decoration:none ;
+     border-radius: 5px;
+     box-shadow: 6px 6px 0px rgb(0, 0, 0);
+
+ }
+ nav a:hover{
+     background-color: white;
+     color: var(--cor01);
+ }
+ main{
+    max-width: 1100px;
+    margin: auto;
+ }
