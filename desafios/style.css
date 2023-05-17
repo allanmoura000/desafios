@@ -1,0 +1,38 @@
+
+main{
+    max-width: 900px;
+    
+    
+}
+.itens{
+    display: flex;
+    height: 300px;
+    margin-top: 20px;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    
+}
+.item01{
+    background-color: var(--cor01);
+    border-radius: 5px;
+    max-width: 210px;
+    height: 300px;
+    box-shadow: 6px 6px 0px rgb(0, 0, 0);
+    text-align: center;
+}
+
+.item01 img{
+    width: 200px;
+    display: block;
+    text-align: center;
+    padding: 10px;
+}
+.item01 h1{
+    color: white;
+
+}
+.item01 p{
+    color: white;
+}
